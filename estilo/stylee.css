@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    
+    --azulesc1: #0d1620;
+    --azulesc2: #0a3758;
+    --azulesc3: #0826e3;
+    --cinzaesc: #4d514c;
+    --cinzacla: #8c9083;
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte3: "Nerko One";
+    --fonte2: "Bebas Neue";
+     }
+     
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-width: 100vh;
+    background-color: var(--cinzacla);
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: #0d1620;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte2);
+
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header p {
+    padding: 8px 0px 50px 0px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: #ff000060;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.xereca {
+    background-color: white;
+    color: black;
+
+}
+
+section.pau {
+    background-color: #4d514c;
+    color: white;
+    box-shadow: inset 6px 6px 100px 7px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.pau p {
+    display: inline-block;
+    background-color: #0000007c;
+    padding: 6px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 { 
+    background-image: url('../imagens/background002.jpg');
+}
+
+footer {
+    background-color: #0d1620;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
